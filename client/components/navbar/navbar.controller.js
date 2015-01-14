@@ -3,8 +3,8 @@
 angular.module('tellshitApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
-      'title': 'Home',
-      'link': '/'
+      'title': 'Timeline',
+      'state': 'timeline'
     }];
 
     $scope.isCollapsed = true;

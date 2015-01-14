@@ -1,0 +1,9 @@
+<article class="container">
+  <p> Must-Read list from that of top topics. </p>
+  <ul class="list-group">
+    <li class="list-group-item timeline-article" ng-click="goArticle(article.num)" ng-repeat="article in articles">
+      <strong>{{article.title}}</strong><br>
+      <span class="text-muted">{{article.writer}}</span>
+    </li>
+  </ul>
+</article>
